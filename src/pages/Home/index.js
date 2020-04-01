@@ -5,10 +5,10 @@ export default function Home() {
     e.preventDefault();
   }
   return (
-    <view>
+    <div>
       <form onSubmit={handleForm}>
         <h1>Home</h1>
       </form>
-    </view>
+    </div>
   );
 }

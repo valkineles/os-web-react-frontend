@@ -22,11 +22,11 @@ export default function Login() {
   return (
     <div className="logon-container">
       <section className="form">
-        <img src={logoImg} alt="Os WebNelson Logo" class="imgLogo" />
+        <img src={logoImg} alt="Os WebNelson Logo" className="imgLogo" />
         <form>
           <h1>Entrar</h1>
           <p>Projeto para estudo de uso de novas tencologias desenvolvido pelo grupo de estudo da SIAC Sistemas</p>
-          <button onClick={handleLogin} id="btnLoginGoogle" class="loginBtn">
+          <button onClick={handleLogin} id="btnLoginGoogle" className="loginBtn">
             Login com Google
           </button>
         </form>

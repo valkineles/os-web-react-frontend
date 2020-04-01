@@ -4,7 +4,7 @@ import { authFirebase } from './auth';
 
 export default function apiClient() {
   return Axios.create({
-    baseURL: 'http://localhost:3300/api/v1',
+    baseURL: process.env.REACT_APP_API_URL_BASE,
     validateStatus: function(status) {
       return true;
     },
