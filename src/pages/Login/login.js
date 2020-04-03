@@ -1,4 +1,4 @@
-import './styles.css';
+import './login.css';
 
 import React from 'react';
 import { useHistory } from 'react-router-dom';
@@ -15,7 +15,7 @@ export default function Login() {
       if (authFirebase.isNewUser()) {
         InsertNewUser();
       }
-      history.push('/home');
+      history.push('/client');
     }
   }
 
